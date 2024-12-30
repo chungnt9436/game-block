@@ -1,0 +1,755 @@
+Using pre-set license
+Built from '2022.3/staging' branch; Version is '2022.3.40f1 (cbdda657d2f0) revision 13360550'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19045) 64bit CoreSingleLanguage' Language: 'en' Physical Memory: 7599 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2022.3.40f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker2
+-projectPath
+C:/Users/ASUS/Documents/Hoc/Lap Trinh Game/Block Puzzel
+-logFile
+Logs/AssetImportWorker2.log
+-srvPort
+49774
+Successfully changed project path to: C:/Users/ASUS/Documents/Hoc/Lap Trinh Game/Block Puzzel
+C:/Users/ASUS/Documents/Hoc/Lap Trinh Game/Block Puzzel
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [17432]  Target information:
+
+Player connection [17432]  * "[IP] 192.168.2.14 [Port] 0 [Flags] 2 [Guid] 2288666727 [EditorId] 2288666727 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-7QB89F72) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [17432] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [17432] Host joined alternative multi-casting on [225.0.0.222:34997]...
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+Refreshing native plugins compatible for Editor in 25.65 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.40f1 (cbdda657d2f0)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.40f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/ASUS/Documents/Hoc/Lap Trinh Game/Block Puzzel/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1650 (ID=0x1f9d)
+    Vendor:   NVIDIA
+    VRAM:     3935 MB
+    Driver:   32.0.15.6607
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.40f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.40f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.40f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56376
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.40f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.012893 seconds.
+- Loaded All Assemblies, in  0.429 seconds
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.284 seconds
+Domain Reload Profiling: 710ms
+	BeginReloadAssembly (127ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (39ms)
+	RebuildNativeTypeToScriptingClass (13ms)
+	initialDomainReloadingComplete (73ms)
+	LoadAllAssembliesAndSetupDomain (174ms)
+		LoadAssemblies (123ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (172ms)
+			TypeCache.Refresh (170ms)
+				TypeCache.ScanAssembly (155ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (285ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (238ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (13ms)
+			SetLoadedEditorAssemblies (7ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (4ms)
+			ProcessInitializeOnLoadAttributes (165ms)
+			ProcessInitializeOnLoadMethodAttributes (49ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  3.085 seconds
+Native extension for WindowsStandalone target not found
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.919 seconds
+Domain Reload Profiling: 3997ms
+	BeginReloadAssembly (174ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (25ms)
+	RebuildCommonClasses (42ms)
+	RebuildNativeTypeToScriptingClass (13ms)
+	initialDomainReloadingComplete (55ms)
+	LoadAllAssembliesAndSetupDomain (2792ms)
+		LoadAssemblies (2491ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (399ms)
+			TypeCache.Refresh (368ms)
+				TypeCache.ScanAssembly (267ms)
+			ScanForSourceGeneratedMonoScriptInfo (26ms)
+			ResolveRequiredComponents (5ms)
+	FinalizeReload (920ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (751ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (10ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (96ms)
+			ProcessInitializeOnLoadAttributes (436ms)
+			ProcessInitializeOnLoadMethodAttributes (192ms)
+			AfterProcessingInitializeOnLoad (12ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (8ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.12 seconds
+Refreshing native plugins compatible for Editor in 28.02 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3490 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 35 unused Assets / (56.9 KB). Loaded Objects now: 3968.
+Memory consumption went from 130.7 MB to 130.7 MB.
+Total: 8.515900 ms (FindLiveObjects: 0.338500 ms CreateObjectMapping: 0.103800 ms MarkObjects: 7.891700 ms  DeleteObjects: 0.179400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 4031.824563 seconds.
+  path: Assets/PuzzleMatchKit/Sprites/UI/Popups/Settings/Checkmark.png
+  artifactKey: Guid(e425bdfddace94b588bd840d888160eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PuzzleMatchKit/Sprites/UI/Popups/Settings/Checkmark.png using Guid(e425bdfddace94b588bd840d888160eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '4a4ca478a166f17d26078839de224597') in 0.108368 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000065 seconds.
+  path: Assets/PuzzleMatchKit/Sprites/UI/Popups/Settings/Line.png
+  artifactKey: Guid(94b8a4334f13d4da99da3e6d542ef805) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PuzzleMatchKit/Sprites/UI/Popups/Settings/Line.png using Guid(94b8a4334f13d4da99da3e6d542ef805) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '266cb3874ab15e294dae02d49accff6a') in 0.013809 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 32.991561 seconds.
+  path: Assets/PuzzleMatchKit/Scripts/GameVanilla/Game/Popups/AlertPopup.cs
+  artifactKey: Guid(c536027d5d6c70b4fa32049997830e84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PuzzleMatchKit/Scripts/GameVanilla/Game/Popups/AlertPopup.cs using Guid(c536027d5d6c70b4fa32049997830e84) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '091f895a045c51893943110b63849740') in 0.001181 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 40.210115 seconds.
+  path: Assets/PuzzleMatchKit/Sprites/UI/Popups/PopupElements/PopupBackgroundFull.png
+  artifactKey: Guid(8b0ecc1ec5e6747f99be00a957d05622) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PuzzleMatchKit/Sprites/UI/Popups/PopupElements/PopupBackgroundFull.png using Guid(8b0ecc1ec5e6747f99be00a957d05622) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'e8ab706706a7a18352ca4e3ad2410613') in 0.017376 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 5.130589 seconds.
+  path: Assets/PuzzleMatchKit/Sprites/UI/Popups/PopupElements/PopupBackgroundHeadline.png
+  artifactKey: Guid(d540235582df14e469d0aa88dc743d41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PuzzleMatchKit/Sprites/UI/Popups/PopupElements/PopupBackgroundHeadline.png using Guid(d540235582df14e469d0aa88dc743d41) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '586681cb355ea3f3f82434e0448a4615') in 0.010775 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 1.151239 seconds.
+  path: Assets/PuzzleMatchKit/Sprites/UI/Popups/PopupElements/PopupBackgroundSimple.png
+  artifactKey: Guid(5bc6a77a9f93c4f64a010314d92b864d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PuzzleMatchKit/Sprites/UI/Popups/PopupElements/PopupBackgroundSimple.png using Guid(5bc6a77a9f93c4f64a010314d92b864d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '50c9f71ac65d42726ed5d349cdddbb19') in 0.011184 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 89.046257 seconds.
+  path: Assets/PuzzleMatchKit/Animations/InGameSettingsPopup/Popup_InGameSettings.overrideController
+  artifactKey: Guid(0e38eea285ed84b509c37d136eb9e366) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PuzzleMatchKit/Animations/InGameSettingsPopup/Popup_InGameSettings.overrideController using Guid(0e38eea285ed84b509c37d136eb9e366) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '8241fae4f4ec871479179e4c1d2f78b8') in 0.005126 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 2.554108 seconds.
+  path: Assets/PuzzleMatchKit/Animations/PopupWin/Stars/Star2.overrideController
+  artifactKey: Guid(e6fefb47a31c94586b8b27a359012422) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PuzzleMatchKit/Animations/PopupWin/Stars/Star2.overrideController using Guid(e6fefb47a31c94586b8b27a359012422) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'f6cde5cad45126138a87a367df54f36f') in 0.005171 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.053490 seconds.
+  path: Assets/PuzzleMatchKit/Animations/PopupWin/Stars/Star3.overrideController
+  artifactKey: Guid(17a97d0a428da4fd1a592299aa5415d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PuzzleMatchKit/Animations/PopupWin/Stars/Star3.overrideController using Guid(17a97d0a428da4fd1a592299aa5415d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '9d198c7a418be3b6b103ef10b23dc9ff') in 0.004944 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/PuzzleMatchKit/Animations/GoalUIElement/TickImage_Text.overrideController
+  artifactKey: Guid(1a368613052a83c41a09326615fa51b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PuzzleMatchKit/Animations/GoalUIElement/TickImage_Text.overrideController using Guid(1a368613052a83c41a09326615fa51b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '11d8aafa2a9cf748b251163e0e81f06d') in 0.002805 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 3.600398 seconds.
+  path: Assets/PuzzleMatchKit/Animations/HomeScene/Confetti/Confetti9.overrideController
+  artifactKey: Guid(4b0cd0337fe3b4ddaa2e30608a70a8ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PuzzleMatchKit/Animations/HomeScene/Confetti/Confetti9.overrideController using Guid(4b0cd0337fe3b4ddaa2e30608a70a8ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '5e3aa449eb802df8cfae06191982b655') in 0.005111 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.029400 seconds.
+  path: Assets/PuzzleMatchKit/Animations/HomeScene/Confetti/Confetti3.overrideController
+  artifactKey: Guid(34a9a1f9f08ee4702943f051213961bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PuzzleMatchKit/Animations/HomeScene/Confetti/Confetti3.overrideController using Guid(34a9a1f9f08ee4702943f051213961bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '4fa3e8bcb8181aae9d3b12e7090df1b1') in 0.003825 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/PuzzleMatchKit/Animations/HomeScene/Confetti/Confetti5.overrideController
+  artifactKey: Guid(f27367d459c514e3c8455dbe649dc6fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PuzzleMatchKit/Animations/HomeScene/Confetti/Confetti5.overrideController using Guid(f27367d459c514e3c8455dbe649dc6fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '50f09ec12211f394de4fb1e153c19399') in 0.003176 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/PuzzleMatchKit/Animations/HomeScene/Confetti/Confetti8.overrideController
+  artifactKey: Guid(0f78542cdd09447c9bb00f93fe967014) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PuzzleMatchKit/Animations/HomeScene/Confetti/Confetti8.overrideController using Guid(0f78542cdd09447c9bb00f93fe967014) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'e3984f39f4a59e60a809c5f074c1cf87') in 0.002676 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.582885 seconds.
+  path: Assets/PuzzleMatchKit/Animations/HomeScene/Confetti/Confetti2.overrideController
+  artifactKey: Guid(13d4fab46361043cda1bf89d602fc74f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PuzzleMatchKit/Animations/HomeScene/Confetti/Confetti2.overrideController using Guid(13d4fab46361043cda1bf89d602fc74f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'f5203aca3ca0c28d741d707bbd0dc1d8') in 0.003018 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.050060 seconds.
+  path: Assets/PuzzleMatchKit/Animations/Loading/Circle5.overrideController
+  artifactKey: Guid(2f8b3b8b274d7470998b0f16a1eae13d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PuzzleMatchKit/Animations/Loading/Circle5.overrideController using Guid(2f8b3b8b274d7470998b0f16a1eae13d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '8bdce3439a13ff1910f7c7d41868e6c7') in 0.005440 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/PuzzleMatchKit/Animations/Loading/Circle8.overrideController
+  artifactKey: Guid(bbb1c007df8a4463a8b8ca1f15219fee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PuzzleMatchKit/Animations/Loading/Circle8.overrideController using Guid(bbb1c007df8a4463a8b8ca1f15219fee) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'e0ea6690830a4022e661ad72df2a244e') in 0.003413 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.022672 seconds.
+  path: Assets/PuzzleMatchKit/Animations/Loading/Circle3.overrideController
+  artifactKey: Guid(04df8c1fb425c4930bdc3ab4d642ae29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PuzzleMatchKit/Animations/Loading/Circle3.overrideController using Guid(04df8c1fb425c4930bdc3ab4d642ae29) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'aca1dee87c99dce96773ba8935ed1b49') in 0.003371 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.022627 seconds.
+  path: Assets/PuzzleMatchKit/Animations/HomeScene/PlayButton/Button_Play.overrideController
+  artifactKey: Guid(90ac71bfd3f2c9f4daf27c97e193bf14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PuzzleMatchKit/Animations/HomeScene/PlayButton/Button_Play.overrideController using Guid(90ac71bfd3f2c9f4daf27c97e193bf14) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '4643e61dfdab5b703d4fba2090d5e8c5') in 0.005467 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/PuzzleMatchKit/Animations/Loading/Circle2.overrideController
+  artifactKey: Guid(48561705e7a59412593917f2b5994d10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PuzzleMatchKit/Animations/Loading/Circle2.overrideController using Guid(48561705e7a59412593917f2b5994d10) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'ac344cf0411aa486c7758e088b44665f') in 0.003067 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.047250 seconds.
+  path: Assets/PuzzleMatchKit/Animations/Boosters/Booster_Bomb.overrideController
+  artifactKey: Guid(4712d53f277e74b4ca974a6029d748c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PuzzleMatchKit/Animations/Boosters/Booster_Bomb.overrideController using Guid(4712d53f277e74b4ca974a6029d748c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '963b199247d32687fd2d0001ea9fb70a') in 0.003718 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 189.924708 seconds.
+  path: Assets/PuzzleMatchKit/Resources/Popups/AlertPopup.prefab
+  artifactKey: Guid(6401998e511ca4ecebba47a1652155e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PuzzleMatchKit/Resources/Popups/AlertPopup.prefab using Guid(6401998e511ca4ecebba47a1652155e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'ffc5ec393d9ddb989b4ac680069263d6') in 0.017428 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 61
+========================================================================
+Received Import Request.
+  Time since last request: 168.250234 seconds.
+  path: Assets/PuzzleMatchKit/Resources/Levels/2.json
+  artifactKey: Guid(78c017db0635743268771091fe8cae82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PuzzleMatchKit/Resources/Levels/2.json using Guid(78c017db0635743268771091fe8cae82) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '67cd558a8bc5ad4666258e2eea695188') in 0.001637 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 5.323972 seconds.
+  path: Assets/PuzzleMatchKit/Resources/Levels/3.json
+  artifactKey: Guid(1a9b96c74e5854944a65ebe6f333d728) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PuzzleMatchKit/Resources/Levels/3.json using Guid(1a9b96c74e5854944a65ebe6f333d728) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '5210097e6ca323c5829a2d7276c5c5a2') in 0.001706 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 4.415442 seconds.
+  path: Assets/PuzzleMatchKit/Resources/Levels/4.json
+  artifactKey: Guid(d5b0de2a82cc449bc81244de74959a26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PuzzleMatchKit/Resources/Levels/4.json using Guid(d5b0de2a82cc449bc81244de74959a26) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '8328ac5088af5e5ffd9055598f592067') in 0.001593 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 1.446188 seconds.
+  path: Assets/PuzzleMatchKit/Resources/Levels/5.json
+  artifactKey: Guid(5a8e5d0f0124040938eb6d25d8d84f2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PuzzleMatchKit/Resources/Levels/5.json using Guid(5a8e5d0f0124040938eb6d25d8d84f2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'bffbd29ebe7ce933118231858de4a9ad') in 0.001625 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 1.190445 seconds.
+  path: Assets/PuzzleMatchKit/Resources/Levels/6.json
+  artifactKey: Guid(bb9e4997c4b6c4f5f9b597bd1b2e4db2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PuzzleMatchKit/Resources/Levels/6.json using Guid(bb9e4997c4b6c4f5f9b597bd1b2e4db2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'eeffd7e136730111cc75b4da7088d344') in 0.001468 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 1.089958 seconds.
+  path: Assets/PuzzleMatchKit/Resources/Levels/8.json
+  artifactKey: Guid(11a79849b20804ff38d0dda8577743b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PuzzleMatchKit/Resources/Levels/8.json using Guid(11a79849b20804ff38d0dda8577743b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '52429e72ea885c6f5c6de32f16152ce1') in 0.001696 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 1.148801 seconds.
+  path: Assets/PuzzleMatchKit/Resources/Levels/7.json
+  artifactKey: Guid(57ac69fdc7f264caba957ec5b77a2cd8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PuzzleMatchKit/Resources/Levels/7.json using Guid(57ac69fdc7f264caba957ec5b77a2cd8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'ec3eb4b2d4b8c135ac0afa8835707f5c') in 0.001356 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 5.680856 seconds.
+  path: Assets/PuzzleMatchKit/Resources/Levels/16.json
+  artifactKey: Guid(c5913a886293c4326a44d3cdab54e88d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PuzzleMatchKit/Resources/Levels/16.json using Guid(c5913a886293c4326a44d3cdab54e88d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '28bf43ab90d52fe0d12ce6ce8f9b4445') in 0.002412 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Prepare
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  1.754 seconds
+Native extension for WindowsStandalone target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.951 seconds
+Domain Reload Profiling: 2699ms
+	BeginReloadAssembly (1177ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (960ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (56ms)
+	RebuildCommonClasses (42ms)
+	RebuildNativeTypeToScriptingClass (13ms)
+	initialDomainReloadingComplete (45ms)
+	LoadAllAssembliesAndSetupDomain (470ms)
+		LoadAssemblies (576ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (17ms)
+			TypeCache.Refresh (9ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (6ms)
+	FinalizeReload (951ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (737ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (10ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (100ms)
+			ProcessInitializeOnLoadAttributes (429ms)
+			ProcessInitializeOnLoadMethodAttributes (183ms)
+			AfterProcessingInitializeOnLoad (11ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (16ms)
+Refreshing native plugins compatible for Editor in 15.92 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3477 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 22 unused Assets / (30.8 KB). Loaded Objects now: 3987.
+Memory consumption went from 132.5 MB to 132.5 MB.
+Total: 9.615800 ms (FindLiveObjects: 0.495400 ms CreateObjectMapping: 0.164600 ms MarkObjects: 8.850900 ms  DeleteObjects: 0.102900 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 359.365625 seconds.
+  path: Assets/PuzzleMatchKit/Scripts/GameVanilla/Game/Common/IapItem.cs
+  artifactKey: Guid(d6bf79e43fe6e9c449ab52035da89088) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PuzzleMatchKit/Scripts/GameVanilla/Game/Common/IapItem.cs using Guid(d6bf79e43fe6e9c449ab52035da89088) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '04d16a21b11a1954bd84ce118cb93818') in 0.003821 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 4.590317 seconds.
+  path: Assets/PuzzleMatchKit/Scripts/GameVanilla/Game/Common/Loader.cs
+  artifactKey: Guid(577065eb1e572194ab66599d95215e5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PuzzleMatchKit/Scripts/GameVanilla/Game/Common/Loader.cs using Guid(577065eb1e572194ab66599d95215e5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '5fe991f2beeee5a764560653b34b8db9') in 0.000747 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 4.656943 seconds.
+  path: Assets/PuzzleMatchKit/Scripts/GameVanilla/Game/Common/TileDef.cs
+  artifactKey: Guid(c43ccd6125f5fdb43aec162866ebd845) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PuzzleMatchKit/Scripts/GameVanilla/Game/Common/TileDef.cs using Guid(c43ccd6125f5fdb43aec162866ebd845) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'cd0cda955779315ff416b07fd97e9b8a') in 0.000785 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 3.858248 seconds.
+  path: Assets/PuzzleMatchKit/Scripts/GameVanilla/Game/Common/TileEntity.cs
+  artifactKey: Guid(c2bad75bf454b244a9be30b63414f49a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PuzzleMatchKit/Scripts/GameVanilla/Game/Common/TileEntity.cs using Guid(c2bad75bf454b244a9be30b63414f49a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'cd81fe627462013ae1545c97d6bbd573') in 0.001030 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 3.742778 seconds.
+  path: Assets/PuzzleMatchKit/Scripts/GameVanilla/Game/Common/GameConfiguration.cs
+  artifactKey: Guid(a6070fad415bf4549b22030c08248f70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PuzzleMatchKit/Scripts/GameVanilla/Game/Common/GameConfiguration.cs using Guid(a6070fad415bf4549b22030c08248f70) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'b3e8a4fc2a0cfcc18aa8b9c4f706dd1d') in 0.000675 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 4.316419 seconds.
+  path: Assets/PuzzleMatchKit/Scripts/GameVanilla/Editor/AboutTab.cs
+  artifactKey: Guid(1e2b0ebb904006148bec7d1f669a274b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PuzzleMatchKit/Scripts/GameVanilla/Editor/AboutTab.cs using Guid(1e2b0ebb904006148bec7d1f669a274b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '5e0eb2de144ed06e23b4503a3e69955b') in 0.001097 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 23.191908 seconds.
+  path: Assets/PuzzleMatchKit/Scripts/GameVanilla/Editor/GameSettingsTab.cs
+  artifactKey: Guid(30474ff724e92ec4db65761740dd298c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PuzzleMatchKit/Scripts/GameVanilla/Editor/GameSettingsTab.cs using Guid(30474ff724e92ec4db65761740dd298c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'c3d676e2fb66da0d707f8535d5d4c56e') in 0.001401 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 12.988781 seconds.
+  path: Assets/PuzzleMatchKit/Scripts/GameVanilla/Editor/PuzzleMatchKitEditor.cs
+  artifactKey: Guid(954e22cbdbdaf12469abb011e858a044) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PuzzleMatchKit/Scripts/GameVanilla/Editor/PuzzleMatchKitEditor.cs using Guid(954e22cbdbdaf12469abb011e858a044) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'cba5ca2860241174aa356eaa47f91403') in 0.000750 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 9.110473 seconds.
+  path: Assets/PuzzleMatchKit/Scripts/GameVanilla/Core/StringUtils.cs
+  artifactKey: Guid(4adfb777240d53e4ca57f8edc59af8c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PuzzleMatchKit/Scripts/GameVanilla/Core/StringUtils.cs using Guid(4adfb777240d53e4ca57f8edc59af8c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '204890057e69ee20b46aa111da0fe3da') in 0.000864 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 1.512086 seconds.
+  path: Assets/PuzzleMatchKit/Scripts/GameVanilla/Core/Transition.cs
+  artifactKey: Guid(52e575daef789ab4c941896651f838cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PuzzleMatchKit/Scripts/GameVanilla/Core/Transition.cs using Guid(52e575daef789ab4c941896651f838cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'e02688555fec860b9e8d1e7464666c07') in 0.000870 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 2.896226 seconds.
+  path: Assets/PuzzleMatchKit/Scripts/GameVanilla/Core/SetFps.cs
+  artifactKey: Guid(903309cdb349181449ac5939ffc09921) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PuzzleMatchKit/Scripts/GameVanilla/Core/SetFps.cs using Guid(903309cdb349181449ac5939ffc09921) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '46364627ca5fac596950e2444af2af34') in 0.000725 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 6.889363 seconds.
+  path: Assets/PuzzleMatchKit/Scripts/GameVanilla/Core/Popup.cs
+  artifactKey: Guid(499be026dcb727b4e94ec85e1c6dbbde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PuzzleMatchKit/Scripts/GameVanilla/Core/Popup.cs using Guid(499be026dcb727b4e94ec85e1c6dbbde) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '405f85c2c7109d3d1844ffdc0015891d') in 0.000910 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 13.758401 seconds.
+  path: Assets/PuzzleMatchKit/Scripts/GameVanilla/Core/FileUtils.cs
+  artifactKey: Guid(15b582cbeeb73f84aabf307f64adcdc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PuzzleMatchKit/Scripts/GameVanilla/Core/FileUtils.cs using Guid(15b582cbeeb73f84aabf307f64adcdc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '30cd68a60673013d6a206ea8715ebc6c') in 0.000953 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 1.512002 seconds.
+  path: Assets/PuzzleMatchKit/Scripts/GameVanilla/Core/BaseScene.cs
+  artifactKey: Guid(35850b3f41c7ec141a2308b60c1e43e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PuzzleMatchKit/Scripts/GameVanilla/Core/BaseScene.cs using Guid(35850b3f41c7ec141a2308b60c1e43e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'c955ff9f3b786ec0537876bccd973910') in 0.001026 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 31.201153 seconds.
+  path: Assets/PuzzleMatchKit/Scripts/GameVanilla/Game/Popups/SettingsPopup.cs
+  artifactKey: Guid(b1f1c633ea9391b4bbe32b7577ecadfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PuzzleMatchKit/Scripts/GameVanilla/Game/Popups/SettingsPopup.cs using Guid(b1f1c633ea9391b4bbe32b7577ecadfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'b6de9efe9482113521c57908603f5679') in 0.000767 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 4.952081 seconds.
+  path: Assets/PuzzleMatchKit/Scripts/GameVanilla/Game/Scenes/GameScene.cs
+  artifactKey: Guid(922f06e3c18c3f645b514ce7c2638c7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PuzzleMatchKit/Scripts/GameVanilla/Game/Scenes/GameScene.cs using Guid(922f06e3c18c3f645b514ce7c2638c7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '6c3946d931b9023fed5d470f70c6b81f') in 0.000739 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 840.361329 seconds.
+  path: Assets/PuzzleMatchKit/Sprites/UI/LevelScene/Birds/BlueBirdWhingRight.png
+  artifactKey: Guid(f42bbef14412e4ba4914dd9fbce08c7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PuzzleMatchKit/Sprites/UI/LevelScene/Birds/BlueBirdWhingRight.png using Guid(f42bbef14412e4ba4914dd9fbce08c7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'cdbd7c6d6a839db8d66fe534a745efea') in 0.431841 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/PuzzleMatchKit/Sprites/UI/Buttons/Rectangles/BlueRectangleButton.png
+  artifactKey: Guid(5ee4058ee994a4514b5035166a3c7091) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PuzzleMatchKit/Sprites/UI/Buttons/Rectangles/BlueRectangleButton.png using Guid(5ee4058ee994a4514b5035166a3c7091) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'cfa8315de5f624f8f7c983dcc00ec4a1') in 0.024416 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/PuzzleMatchKit/Resources/Game/BombHorizontalIce.png
+  artifactKey: Guid(0bb214399f7b1482088080fbdf611c04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PuzzleMatchKit/Resources/Game/BombHorizontalIce.png using Guid(0bb214399f7b1482088080fbdf611c04) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '3b6ed2dac6e40fd557aa726b86e75aaa') in 0.020687 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/PuzzleMatchKit/Sprites/GameItems/Blocks/BlueItem.png
+  artifactKey: Guid(8d8fa9090d8d5436a81e37d5d7db7a4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PuzzleMatchKit/Sprites/GameItems/Blocks/BlueItem.png using Guid(8d8fa9090d8d5436a81e37d5d7db7a4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'e1e191928589038c80f3dff48e9f1e3c') in 0.097631 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 61
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Assets/PuzzleMatchKit/Sprites/UI/Buttons/Squares/BlueSoftSquareButton.png
+  artifactKey: Guid(1f7a897b7e21c4ccfaa417fb60cd5a0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PuzzleMatchKit/Sprites/UI/Buttons/Squares/BlueSoftSquareButton.png using Guid(1f7a897b7e21c4ccfaa417fb60cd5a0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '115f2fc6c16eadad0f8eea6ae1a9c654') in 0.017487 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/PuzzleMatchKit/Resources/Game/BombVerticalIce.png
+  artifactKey: Guid(e06168cab31094bc5b3db6f516ce0a17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PuzzleMatchKit/Resources/Game/BombVerticalIce.png using Guid(e06168cab31094bc5b3db6f516ce0a17) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'f49193389aa8b46b970be6f66b030a57') in 0.015928 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/PuzzleMatchKit/Sprites/UI/LevelScene/LevelButtons/BlueLevelButton.png
+  artifactKey: Guid(8d3e24e13f8c343c99859f43f1bb1053) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PuzzleMatchKit/Sprites/UI/LevelScene/LevelButtons/BlueLevelButton.png using Guid(8d3e24e13f8c343c99859f43f1bb1053) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '69a3d7a53fc0e30063cd346d7f663722') in 0.016331 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/PuzzleMatchKit/Sprites/UI/Buttons/Squares/BlueSquareButton.png
+  artifactKey: Guid(709d74738afe84eb98d1388c4db87f92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PuzzleMatchKit/Sprites/UI/Buttons/Squares/BlueSquareButton.png using Guid(709d74738afe84eb98d1388c4db87f92) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'e6fbb9fef0f367ecc475ec1e7e0a31b4') in 0.016713 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: The I/O operation has been aborted because of either a thread exit or an application request.
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
